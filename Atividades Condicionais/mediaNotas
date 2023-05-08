@@ -1,0 +1,20 @@
+let notaUm, notaDois, notaTres, notaQuatro, media
+
+notaUm = Number(prompt("Digite a primeira nota: "))
+notaDois = Number(prompt("Digite a segunda nota: "))
+notaTres = Number(prompt("Digite a terceira nota: "))
+notaQuatro = Number(prompt("Digite a quarta nota: "))
+
+media = (notaUm + notaDois + notaTres + notaQuatro) / 4
+
+if(media >= 7){
+    alert("Você foi aprovado!")
+}
+
+else if(media < 5){
+    alert("Você foi reprovado!")
+}
+
+else {
+    alert("Você está de recuperação!")
+}
