@@ -1,0 +1,97 @@
+body { 
+    font-family: 'Aileron', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.tamanhoElementos {
+    padding-top: 3%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.espacar {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ajustarTamanho{
+    padding:0,0,0,200px;
+}
+
+input::placeholder {  
+    text-align: center;
+    color:rgb(211, 211, 211);
+    font-weight: bold;
+}
+
+input {
+    font-size:19px;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+    border-radius: 7px 7px 7px 7px;
+    background:#c22649;
+    border: 2px solid white;
+    color:rgb(211, 211, 211);;
+    font-weight: bold;
+}
+
+button:hover{
+    width:115px;
+    height:27px;
+    transition: 0.1s ease-out;
+    background-color:rgb(231, 228, 228);
+}
+
+button:active{
+    background-color: rgb(171, 171, 171);
+}
+
+button {
+    font-size: 19px;
+    width: 120px;
+    height: 30px;
+    border-radius: 7px 7px 7px 7px;
+    background: white;
+    border: 0px;
+    transition: 0.1s ease-out;
+    font-weight:bold;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+ 
+}
+
+.mensagem {
+    color: yellow;
+    font-weight: bold;
+    font-size:18px;     
+    padding-top:10px;
+    padding-left: 10px;
+}
+
+select {
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 19px;
+    background:#c22649;
+    border: 3px solid white;
+    color:white;
+    font-weight: bold;
+}
+
+.alinharEsquerda {
+    padding-right: 9%;
+}
+
+select option {
+    background: #ff3f74;
+    display: inline-block;
+    border: 3px solid white;
+    font-weight: bold;
+}
